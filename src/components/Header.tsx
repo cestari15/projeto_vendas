@@ -3,21 +3,19 @@ import styles from '../components/Header.module.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Navbar = () => {
-    return (
-        <nav className={styles.navbar}>
-        <div className={styles.logo}><a href="">Logo</a></div>
-        <ul className={styles.links}>
-        <li><a href="">Home</a></li>
-        <li><a href="">about</a></li>
-        <li><a href="">services</a></li>
-        <li><a href="">Contact</a></li>
-        </ul>
-        <a href="" className={styles.actionBtn}>Get Started</a>
-        <div className={styles.togglerBtn} >
-       <svg xmlns="" ></svg>
-        </div>
-      </nav>
-    );
+  return (
+<header>
+ <img  src="../images/loguinho.png"  className={styles.logo} />
+<nav>
+  <ul className={styles.navlinks}>
+    <li><a href="#">Dieta</a></li>
+    <li><a href="">Nutri</a></li>
+    <li><a href="#">Refeição</a></li>
+  </ul>
+</nav>
+<a className={styles.cta} href=""><button>Login</button></a>
+</header>
+  );
 }
 
 export default Navbar;

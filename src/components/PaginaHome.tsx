@@ -5,14 +5,21 @@ import Navbar from "./Header";
 
 const PaginaHome = () => {
     return (
+
         <div>
             <Navbar />
-           
+
+            <div className={styles.banner}>
 
 
 
 
+            </div>
         </div>
+
+
+
+
 
     );
 }
