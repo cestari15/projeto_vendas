@@ -1,11 +1,12 @@
 import React from "react";
 import styles from '../components/Header.module.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import logo from "../images/loguinho.png";
 
 const Navbar = () => {
   return (
 <header>
- <img  src="../images/loguinho.png"  className={styles.logo} />
+ <img  src={logo}  className={styles.logo} />
 <nav>
   <ul className={styles.navlinks}>
     <li><a href="#">Dieta</a></li>

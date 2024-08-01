@@ -12,6 +12,7 @@ li, a, button {
 li, a{
   color:green;
   font-size: 20px;
+  font-family: cursive;
   
 }
 li{
@@ -33,14 +34,15 @@ header{
 }
 
 .logo{
-  width: 30px;
-  height: 30px;
+  width: 70px;
+  height: 70px;
   
 
 }
 
 .navlinks{
   list-style: none;
+  
 }
 
 .navlinks li {
@@ -62,6 +64,7 @@ button{
   border-radius: 50px;
   cursor: pointer;
   transition: all 0.3s ease 0s ;
+  font-family: cursive;
 }
 button:hover{
   background-color: white;
