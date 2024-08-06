@@ -6,43 +6,46 @@ import banner from "../images/banner.jpg"
 
 const PaginaHome = () => {
     return (
-
         <div>
+
             <Navbar />
 
-            <div className={styles.banner}>
-
-                <img src={logo} className={styles.logo} />
-                <h5 className={styles.slogan}>Descubra o Sabor da Saúde</h5>
-                <h5 className={styles.slogan2}>Nutrição Personalizada ao seu Alcance!</h5>
-            </div>
-
-            <div className={styles.banner2}>
-                <h5 className={styles.text1}>Tratamento com os melhores nutricionistas</h5>
-                <h4 className={styles.text2}>Acompanhe sua dieta aqui!</h4>
-
-                <img src={banner} className={styles.imagem} />
-            </div>
-
-            <div className={styles.banner3}>
-                <h2 className={styles.titulo}>Sabor & Saúde</h2>
-
-
-                <h5 className={styles.subtitle}>Você sabia ?</h5>
-                <h5 className={styles.subtitle1}>Basicamente o gasto energético do metabolismo humano é dividido em:</h5>
-
-                <div className="">
-
+            <div className="container text-center">
+                <div className="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+                    <div className="col">
+                        <div className="p-3">Row column</div>
+                    </div>
+                    <div className="col">
+                        <div className="p-3">Row column</div>
+                    </div>
+                    <div className="col">
+                        <div className="p-3">Row column</div>
+                    </div>
+                    <div className="col">
+                        <div className="p-3">Row column</div>
+                    </div>
+                    <div className="col">
+                        <div className="p-3">Row column</div>
+                    </div>
+                    <div className="col">
+                        <div className="p-5"><a href="#">Receitas</a></div>
+                    </div>
+                    <div className="col">
+                        <div className="p-5"><a href="#">Alimentos</a></div>
+                    </div>
+                    <div className="col">
+                        <div className="p-5"><a href="#">IMC</a></div>
+                    </div>
+                    <div className="col">
+                        <div className="p-5"><a href="#" className={styles.color}>Percentual gordura</a></div>
+                    </div>
+                    <div className="col">
+                        <div className="p-5 bg-text-dark"><a href="#">Perfil</a></div>
+                    </div>
                 </div>
 
-                <p className={styles.p1}>Quando se faz uma dieta, </p>
-                <p className={styles.p2}>todos os gastos energéticos diminuem, mas a massa muscular é a mais afetada, pois ela sofre </p>
-                <p className={styles.p3}>degradação durante o emagrecimento.</p>
-
             </div>
-
         </div>
-
 
 
 
