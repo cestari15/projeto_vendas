@@ -1,13 +1,25 @@
-.main {
+.main{
     min-height: 60vh;
     text-align: center;
     padding: 2em;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
-.main h2 {
+
+.main h2{
     margin-bottom: 0.8em;
 }
 
-.error {
+.error{
     color: red;
 }
+input{
+    border-radius: 45px;
+    opacity: 100%; 
+}
+
+.reset {
+    all: unset;
+  }

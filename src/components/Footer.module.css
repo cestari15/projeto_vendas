@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+footer {
+    background-color: #198754;
+    padding: 50px 0;
+}
+
+.container0footer {
+    max-width: 1400px;
+    padding: 0 4%;
+    margin: auto;
+}
+
+.row0footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer0col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer0col h4 {
+    font-size: 22px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: 500;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.footer0col ul {
+    list-style: none;
+}
+
+.footer0col ul li {
+    margin: 10px 0;
+}
+
+.footer0col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer0col ul li a:hover {
+    color: #cecdcd; /* Cor ao passar o mouse */
+    padding-left: 10px; /* Efeito sutil ao passar o mouse */
+}
+
+.footer0col .medias0socias {
+    margin-top: 30px;
+}
+
+.footer0col .medias0socias a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    margin-right: 10px; /* Margem direita */
+    text-decoration: none;
+    border-radius: 50%;
+    color: white; /* Cor do ícone */
+    border: 1px solid white; /* Borda branca */
+    transition: all 0.5s ease; /* Transição suave */
+}
+
+.footer0col .medias0socias a:hover {
+    color: #198754; /* Cor ao passar o mouse */
+    background-color: white; /* Fundo branco ao passar o mouse */
+}
+
+.footer0col .form0sub input {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    outline: none; /* Remove contorno padrão */
+    border: 1px solid white; /* Borda branca */
+    color: white; /* Cor do texto */
+    background-color: #198754; /* Fundo verde */
+}
+
+.footer0col .form0sub input::placeholder {
+    color: rgba(255, 255, 255, 0.7); /* Placeholder mais visível */
+}
+
+.footer0col .form0sub button {
+    width: 100%;
+    margin-top: 10px; 
+    padding: 10px; 
+    font-size: 17px; 
+    outline: none; 
+    border: none; 
+    cursor: pointer; 
+    color: #198754; /* Cor do texto no botão */
+    border-radius: 3px; 
+    font-weight: bold; 
+    background-color: white; /* Fundo branco no botão */        
+}
+
+/* Responsivo */
+@media (max-width: 800px) {
+    .footer0col {
+        width: 50%; /* Duas colunas em telas menores */
+        margin-bottom: 30px; 
+    }
+}
+
+@media (max-width:600px) {
+     .footer0col {
+        width: 100%; /* Uma coluna em telas muito pequenas */
+     }
+}

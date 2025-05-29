@@ -1,13 +1,7 @@
 declare module "*.module.css"
-declare module "*.png" {
-    const content: any;
-    export default content;
-  }
-  declare module "*.svg" {
-    const content: any;
-    export default content;
-  }
-  declare module "*.jpg" {
-    const content: any;
-    export default content;
-  }
+// src/Global.d.ts
+declare module "*.png";
+declare module "*.jpg";
+declare module "*.jpeg";
+declare module "*.gif";
+declare module "*.svg";

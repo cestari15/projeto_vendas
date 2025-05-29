@@ -1,8 +1,57 @@
-nav{
-  align-items: center;
-  background-color: white;
+/* Header.module.css */
+.logoNavbar {
+    background-color: #198754; /* Cor de fundo da navbar da logo */
+    padding: 1%; /* Padding da navbar da logo */
+    transition: opacity 0.2s ease; /* Transição suave para o efeito de desaparecimento */
+    position: fixed; /* Fixa a navbar no topo */
+    width: 100%; /* Largura total */
+    z-index: 1000; /* Garante que a navbar fique acima de outros conteúdos */
+
+    display: flex; /* Usar flexbox para centralizar */
+    justify-content: center; /* Centraliza horizontalmente */
 }
-.logo{
-  margin-left: 660px;
- 
+
+.navbar {
+    background-color: #198754; /* Cor de fundo da navbar de navegação */
+    color: white;
+    padding: 1%; /* Padding igual ao da navbar da logo */
+    transition: opacity 0.1s ease; /* Transição suave para o efeito de aparecimento */
+    position: fixed; /* Fixa a navbar no topo */
+    width: 100%; /* Largura total */
+    z-index: 999; /* Garante que a navbar fique acima de outros conteúdos, mas abaixo da logo */
+
+    display: flex; /* Usar flexbox para organizar os links */
+    justify-content: center; /* Centraliza os links horizontalmente */
+}
+
+.hide {
+    opacity: 0; /* Esconde a navbar da logo */
+    pointer-events: none; /* Desativa eventos enquanto está escondida */
+}
+
+.show {
+    opacity: 1; /* Mostra a navbar de navegação */
+}
+
+.brand {
+    font-size: 2.5em; /* Aumenta o tamanho da fonte do título (logo) */
+}
+
+.logo {
+    height: 150px; /* Aumenta a altura da logo conforme necessário */
+    border-radius: 60px;
+}
+
+.nav-links {
+    display: flex; /* Usar flexbox para alinhar os links em linha */
+}
+
+.nav-link {
+    color: white;
+    font-size: 1.2em; /* Tamanho da fonte dos links aumentado */
+}
+
+/* Estilos para as seções */
+section {
+    padding-top: calc(5% * 2 + 20px); /* Adiciona espaço suficiente para evitar sobreposição da navbar ao conteúdo */
 }
