@@ -1,5 +1,5 @@
 import React, { Component, useState, ChangeEvent, FormEvent, useEffect } from 'react';
-import Styles from '../app.module.css';
+import Styles from '../App.module.css';
 import button from './Button.module.css'
 import axios from 'axios';
 import { Link } from 'react-router-dom';

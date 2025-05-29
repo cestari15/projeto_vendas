@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
 import button from '../components/Button.module.css';
-import Styles from '../app.module.css';
+import Styles from '../App.module.css';
 import { cadastroProdutoInterface } from '../interface/cadastroProdutoInterface';
 import Swal from 'sweetalert2';
 import Header from './Header';
