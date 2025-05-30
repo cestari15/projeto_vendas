@@ -11,6 +11,7 @@ import UpdateProdutos from "../components/UpdateProdutos";
 import Venda from "../components/Venda";
 import ListagemVendas from "../components/ListagemVendas";
 import UpdateVenda from "../components/UpdateVenda";
+import Login from "../components/Login";
 
 
 
@@ -33,6 +34,8 @@ const AppRouter = () => {
                 <Route path="/update/cliente/:id" element={<UpdateCliente />} />
                 <Route path="/update/produto/:id" element={<UpdateProdutos />} />
                 <Route path="/update/venda/:id" element={<UpdateVenda />} />
+                {/* LOGIN */}
+                  <Route path="/login" element={<Login />} />
             </Routes>
         </BrowserRouter>
     )
